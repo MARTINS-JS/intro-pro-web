@@ -62,7 +62,7 @@
   - [X] Iniciando na programação
   - [X] Iniciando no JavaScript
   - [X] Comentários, Strings e Numbers
-  - [ ] Fazendo cálculo com JavaScript
+  - [X] Fazendo cálculo com JavaScript
   - [ ] Condicionais
   - [ ] Operadores relacionais e comparativos
   - [ ] Operadores lógicos e aritméticos
