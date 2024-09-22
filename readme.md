@@ -63,7 +63,7 @@
   - [X] Iniciando no JavaScript
   - [X] Comentários, Strings e Numbers
   - [X] Fazendo cálculo com JavaScript
-  - [ ] Condicionais
+  - [X] Condicionais
   - [ ] Operadores relacionais e comparativos
   - [ ] Operadores lógicos e aritméticos
   - [ ] [**Desafio 1-1**](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-01/blob/master/desafios/01-1-primeiros-passos-com-js.md)
