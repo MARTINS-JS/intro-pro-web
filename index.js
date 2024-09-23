@@ -1,13 +1,20 @@
-/* Operadores de Comparação */
+/* Operadores Lógicos */
 
-console.log( 5 > 4 )     // >   | Maior 
-console.log( 5 < 4 )     // <   | Menor
+console.log( 5 == 5 && 6 == 6 ) // true
+console.log( 5 == 5 && 6 != 6 ) // false
 
-console.log( 5 >= 4 )    // >=  | Maior igual a
-console.log( 5 <= 4 )    // <=  | Menor igual a
+console.log( 5 != 5 || 6 == 6 ) // true
+console.log( 5 == 5 || 6 != 6 ) // true
 
-console.log( 4 == "4" )  // ==  | Igual a
-console.log( 4 === "4" ) // === | Igual e do mesmo tipo
+console.log( !(5 > 6) ) // true
+console.log( !(5 < 6) ) // false
 
-console.log( 4 != "5" )  // !=  | Diferente de
-console.log( 4 !== "5" ) // !== | Diferente, inclusive do tipo
+/* Operadores Aritmétricos */
+
+console.log( 2 + 2 )    // 4
+console.log( 2 - 2 )    // 0
+
+console.log( 2 * 2 )    // 4
+console.log( 2 / 2 )    // 1
+
+console.log( 2 % 1.5 )  // 0.5
