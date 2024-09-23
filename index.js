@@ -1,16 +1,13 @@
-const student01 = 'Mayk'
-const grade01 = 9.8
+/* Operadores de Comparação */
 
-const student02 = 'Diego'
-const grade02 = 10
+console.log( 5 > 4 )     // >   | Maior 
+console.log( 5 < 4 )     // <   | Menor
 
-const student03 = 'Martins'
-const grade03 = 6
+console.log( 5 >= 4 )    // >=  | Maior igual a
+console.log( 5 <= 4 )    // <=  | Menor igual a
 
-const average = (grade01 + grade02 + grade03) / 3
+console.log( 4 == "4" )  // ==  | Igual a
+console.log( 4 === "4" ) // === | Igual e do mesmo tipo
 
-if(average > 5) {
-  console.log(`Class average: ${average} | Approved class!`)
-} else {
-  console.log(`Class average: ${average} | Failed class!`)
-}
+console.log( 4 != "5" )  // !=  | Diferente de
+console.log( 4 !== "5" ) // !== | Diferente, inclusive do tipo
