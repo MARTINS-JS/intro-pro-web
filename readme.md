@@ -1,6 +1,6 @@
 <div style="">
   <a href="#">
-    <img alt="LaunchBase" src=".github/logo.jpg"/>
+    <img alt="LaunchBase" src=".github/logo.png"/>
   </a>
 </div>
 
