@@ -65,7 +65,7 @@
   - [X] Fazendo cálculo com JavaScript
   - [X] Condicionais
   - [X] Operadores relacionais e comparativos
-  - [ ] Operadores lógicos e aritméticos
+  - [X] Operadores lógicos e aritméticos
   - [ ] [**Desafio 1-1**](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-01/blob/master/desafios/01-1-primeiros-passos-com-js.md)
   - [ ] Objetos
   - [ ] Vetores
