@@ -1,20 +1,22 @@
-/* Operadores Lógicos */
+const student01 = {
+  name: 'Mayk',
+  grade: 9.8
+}
 
-console.log( 5 == 5 && 6 == 6 ) // true
-console.log( 5 == 5 && 6 != 6 ) // false
+const student02 = {
+  name: 'Diego',
+  grade: 10
+}
 
-console.log( 5 != 5 || 6 == 6 ) // true
-console.log( 5 == 5 || 6 != 6 ) // true
+const student03 = {
+  name: 'Martins',
+  grade: 6
+}
 
-console.log( !(5 > 6) ) // true
-console.log( !(5 < 6) ) // false
+const average = (student01.grade + student02.grade + student03.grade) / 3
 
-/* Operadores Aritmétricos */
-
-console.log( 2 + 2 )    // 4
-console.log( 2 - 2 )    // 0
-
-console.log( 2 * 2 )    // 4
-console.log( 2 / 2 )    // 1
-
-console.log( 2 % 1.5 )  // 0.5
+if(average > 5) {
+  console.log(`Class average: ${average} | Approved class!`)
+} else {
+  console.log(`Class average: ${average} | Failed class!`)
+}
