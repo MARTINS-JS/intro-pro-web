@@ -69,7 +69,7 @@
   - [X] [**Desafio 1-1**](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-01/blob/master/desafios/01-1-primeiros-passos-com-js.md)
   - [X] Objetos
   - [X] Vetores
-  - [ ] [**Desafio 1-2**](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-01/blob/master/desafios/01-2-lidando-com-objetos-e-vetores.md)
+  - [X] [**Desafio 1-2**](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-01/blob/master/desafios/01-2-lidando-com-objetos-e-vetores.md)
   - [ ] Funções e Métodos
   - [ ] Estrutura de repetição
   - [ ] Escopos
