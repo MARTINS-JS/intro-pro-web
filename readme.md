@@ -71,7 +71,7 @@
   - [X] Vetores
   - [X] [**Desafio 1-2**](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-01/blob/master/desafios/01-2-lidando-com-objetos-e-vetores.md)
   - [X] Funções e Métodos
-  - [ ] Estrutura de repetição
+  - [X] Estrutura de repetição
   - [ ] Escopos
   - [ ] [**Desafio 1-3**](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-01/blob/master/desafios/01-3-funcoes-e-estruturas-de-repeticao.md)
   - [ ] Booleanos
