@@ -10,6 +10,10 @@ const classA = [
   {
     name: 'Martins',
     grade: 6
+  },
+  {
+    name: 'Novo aluno',
+    grade: 5
   }
 ]
 
@@ -25,11 +29,23 @@ const classB = [
   {
     name: 'Grey',
     grade: 5
+  },
+  {
+    name: 'Nova aluna',
+    grade: 5
   }
 ]
 
 function calculateAverage(students) {
-  return (students[0].grade + students[1].grade + students[2].grade) / 3
+  let soma = 0
+  
+  for (let i = 0; i < students.length; i++) {
+    soma = soma + students[i].grade
+  }
+  
+  const average = soma / students.length
+  
+  return average
 }
 
 const averageClassA = calculateAverage(classA)
