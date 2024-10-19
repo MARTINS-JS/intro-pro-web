@@ -54,7 +54,7 @@
 
 <div style="">
   <p>
-    Estudando!
+    Nessa fase aprendi os conceitos iniciais da linguagem JavaScript e entendi um pouco sobre lógica de programação.
   </p>
 </div>
 
@@ -76,7 +76,7 @@
   - [X] [**Desafio 1-3**](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-01/blob/master/desafios/01-3-funcoes-e-estruturas-de-repeticao.md)
   - [X] Booleanos
   - [X] Organização, Padronização e Escrita
-  - [ ] [**Desafio 1-4**](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-01/blob/master/desafios/01-4-aplicacao-operacoes-bancarias.md)
+  - [X] [**Desafio 1-4**](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-01/blob/master/desafios/01-4-aplicacao-operacoes-bancarias.md)
 
 <div style="">
   <p>
