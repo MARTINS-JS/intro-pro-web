@@ -43,13 +43,8 @@ function calculateAverage(students) {
     soma = soma + students[i].grade
   }
   
-  const average = soma / students.length
-  
-  return average
+  return soma / students.length
 }
-
-const averageClassA = calculateAverage(classA)
-const averageClassB = calculateAverage(classB) 
 
 function sendMessage(averageClass, classroom) {
   if(averageClass > 5) {
@@ -58,9 +53,6 @@ function sendMessage(averageClass, classroom) {
     console.log(`Class average ${classroom}: ${averageClass} | Failed class!`)
   }
 }
-
-sendMessage(averageClassA, 'A')
-sendMessage(averageClassB, 'B')
 
 function markAsFlunked(student) {
   student.isFailed = false
@@ -82,6 +74,12 @@ function studentsFlunked(students) {
     sendMessageFlunked(student)
   }
 }
+
+const averageClassA = calculateAverage(classA)
+const averageClassB = calculateAverage(classB)
+
+sendMessage(averageClassA, 'A')
+sendMessage(averageClassB, 'B')
 
 studentsFlunked(classA)
 studentsFlunked(classB)
