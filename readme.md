@@ -75,7 +75,7 @@
   - [X] Escopos
   - [X] [**Desafio 1-3**](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-01/blob/master/desafios/01-3-funcoes-e-estruturas-de-repeticao.md)
   - [X] Booleanos
-  - [ ] Organização, Padronização e Escrita
+  - [X] Organização, Padronização e Escrita
   - [ ] [**Desafio 1-4**](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-01/blob/master/desafios/01-4-aplicacao-operacoes-bancarias.md)
 
 <div style="">
