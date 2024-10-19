@@ -13,7 +13,7 @@ const classA = [
   },
   {
     name: 'Novo aluno',
-    grade: 5
+    grade: 7
   }
 ]
 
@@ -32,7 +32,7 @@ const classB = [
   },
   {
     name: 'Nova aluna',
-    grade: 5
+    grade: 7
   }
 ]
 
@@ -61,3 +61,27 @@ function sendMessage(averageClass, classroom) {
 
 sendMessage(averageClassA, 'A')
 sendMessage(averageClassB, 'B')
+
+function markAsFlunked(student) {
+  student.isFailed = false
+  
+  if (student.grade <= 5) {
+    student.isFailed = true
+  }
+}
+
+function sendMessageFlunked(student) {
+  if (student.isFailed) {
+    console.log(`${student.name} is failed!`)
+  }
+}
+
+function studentsFlunked(students) {
+  for (let student of students) {
+    markAsFlunked(student)
+    sendMessageFlunked(student)
+  }
+}
+
+studentsFlunked(classA)
+studentsFlunked(classB)
